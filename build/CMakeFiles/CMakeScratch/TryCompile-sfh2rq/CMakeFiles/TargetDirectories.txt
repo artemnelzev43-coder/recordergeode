@@ -1,0 +1,2 @@
+C:/Users/artemis_off/Downloads/attempt-recorder/attempt-recorder/build/CMakeFiles/CMakeScratch/TryCompile-sfh2rq/CMakeFiles/cmTC_abdc1.dir
+C:/Users/artemis_off/Downloads/attempt-recorder/attempt-recorder/build/CMakeFiles/CMakeScratch/TryCompile-sfh2rq/CMakeFiles/ALL_BUILD.dir

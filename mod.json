@@ -1,0 +1,46 @@
+{
+  "geode": "4.10.1",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "version": "v1.0.0",
+  "id": "user.attempt-recorder",
+  "name": "Attempt Recorder",
+  "developer": "user",
+  "description": "Camera button in the pause menu: watch your last attempts (until death or win), switch between them and save as GIF to Downloads.",
+  "resources": {
+    "sprites": ["resources/*.png"]
+  },
+  "settings": {
+    "max-seconds": {
+      "type": "int",
+      "name": "Max seconds per attempt",
+      "description": "Only the last N seconds before death/win are kept.",
+      "default": 15,
+      "min": 5,
+      "max": 60,
+      "control": { "input": true, "slider": true }
+    },
+    "max-attempts": {
+      "type": "int",
+      "name": "Attempts to keep",
+      "description": "How many recent attempts are stored in RAM.",
+      "default": 5,
+      "min": 1,
+      "max": 20,
+      "control": { "input": true, "slider": true }
+    },
+    "frame-width": {
+      "type": "int",
+      "name": "Recording width (px)",
+      "description": "Bigger = sharper but heavier on RAM/CPU.",
+      "default": 320,
+      "min": 160,
+      "max": 640,
+      "control": { "input": true, "slider": true }
+    }
+  }
+}
